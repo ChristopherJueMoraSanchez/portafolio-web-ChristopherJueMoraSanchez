@@ -13,7 +13,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="tu_contraseña",
+        password="Noseque123",
         database="mimwu"
     )
 
@@ -201,3 +201,4 @@ def analisis(usuario_id):
 # -----------------------------------------------
 if __name__ == "__main__":
     app.run(debug=True, host="127.0.0.1", port=5000)
+
